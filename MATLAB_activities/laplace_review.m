@@ -23,7 +23,7 @@ F4 = 1 / (s - 2);
 f4 = ilaplace(F4);
 pretty(f4)
 
-F5 = 1 / (2*s + 1);
+F5 = 1 / (2*s - 1);
 f5 = ilaplace(F5);
 pretty(f5)
 
