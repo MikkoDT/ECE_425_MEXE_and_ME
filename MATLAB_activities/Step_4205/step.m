@@ -7,9 +7,9 @@ close all
 % Mechanical Translational System (Mass, Spring, Damper)
 % G(s) = 1 / s^2 + s + 1
 
-M = 10;
-B = 15;
-k = 20;
+M = 5;
+B = 10;
+k = 10;
 
 G_num = [1];
 G_den = [M B k];
